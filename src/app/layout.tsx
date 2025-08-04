@@ -2,6 +2,23 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import { Inter, Fredoka } from "next/font/google";
+
+// Configure the font
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter", // CSS variable for body font
+});
+
+// Configure the font for display headings
+const fredoka = Fredoka({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Make sure to include needed weights
+  display: "swap",
+  variable: "--font-fredoka", // CSS variable for display font
+});
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${fredoka.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
         {children}
       </body>
