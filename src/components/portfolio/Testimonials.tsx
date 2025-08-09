@@ -28,15 +28,12 @@ export function Testimonials() {
         </div>
         <Card className="max-w-4xl mx-auto p-8 border-l-4 border-l-[#3B82F6]">
           <blockquote className="text-xl md:text-2xl italic mb-6 text-center">
-            &ldquo;Mohammad&lsquo;s work on our project was exceptional. His
-            attention to detail and ability to deliver complex features on time
-            made him an invaluable team member.&quot;
+            &ldquo;Whether it’s coding a complex backend or fine-tuning an AI
+            algorithm, Kaif gets it done.&quot;
           </blockquote>
           <div className="text-center">
-            <p className="font-semibold text-lg">Client Name</p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Position, Company
-            </p>
+            <p className="font-semibold text-lg">Abhiram Acharya</p>
+            <p className="text-gray-600 dark:text-gray-400">AiExecute</p>
           </div>
         </Card>
       </motion.div>
