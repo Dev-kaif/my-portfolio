@@ -95,7 +95,7 @@ src/
 ├── constants.ts      \# Centralized file for all data and shared values
 └── utils.ts          \# Utility functions (e.g., cn for Tailwind)
 
-```
+````
 
 ---
 
@@ -112,4 +112,4 @@ src/
 ### 📄 License
 
 This project is distributed under the MIT License. See `LICENSE` for more information.
-````
+
